@@ -1,0 +1,31 @@
+h2 {
+  text-align: center;
+}
+.todo-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: burlywood;
+  &-input {
+    width: 500px;
+    height: 30px;
+    outline: none;
+    text-indent: 10px;
+  }
+  &-button {
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    font-family: system-ui;
+    font-weight: 700;
+    border: none;
+    background-color: cadetblue;
+  }
+}
+.hide {
+  display: none;
+}
+.hide-checkbox {
+  margin-left: 45%;
+}
